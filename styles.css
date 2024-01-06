@@ -3,15 +3,22 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(192, 254, 255);
+    background-color: #fff;
+    color: #1b3d5e;
 }
+
+ h1 {
+     background: linear-gradient(45deg, #ff0000, #ff9900, #ffcc00, #33cc33, #3399ff, #9900cc);
+     -webkit-background-clip: text;
+     color: transparent;
+     display: inline-block;
+     margin:0;
+ }
 
 .container {
     text-align: center;
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
 }
@@ -32,6 +39,9 @@ button {
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
     margin-top: 20px;
+    background-color: #48f5fe22;
+    border-radius: 1rem;
+    padding: 2rem 0.5rem;
 }
 
 .day {
@@ -62,8 +72,4 @@ button {
 .day-of-week {
     text-transform: uppercase;
     font-weight: bold;
-}
-
-p{
-    font-size: 14px;
 }
